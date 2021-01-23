@@ -29,3 +29,12 @@ My strengths are meticulousness, accuracy, diligence.
 + [Limpon - landing page software](https://valeryshel.github.io/limpon/)
 + [Culture News - Новости культуры](https://valeryshel.github.io/culture_news/)
 + [Mamon - development agency](https://valeryshel.github.io/mamon/)
+
+## Education
+- GeekBrains html & css course
+- FrontEndBlok JavaScript Master
+- HTMLacademy - interactive courses
+- PiterCss Meetings
+
+## Level of English
++ Intermediate B1.
