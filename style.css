@@ -1,6 +1,26 @@
 * {
   font-family: 'Open Sans Condensed', sans-serif;
-  color: rgb(21, 46, 51);
+  color: rgb(44, 89, 83);
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  background-color: rgb(175, 208, 199);
+  padding: 10px;
+}
+
+h1, h2 {
+  text-transform: uppercase;
 }
 
 .content {
@@ -23,17 +43,24 @@
   padding-left: 15px;
   padding-right: 15px;
   display: flex;
+  flex-direction: column;
 }
 
 .avatar {
   width: 200px;
   height: 200px;
-  margin: 5px 2px 2px 5px;
-  box-shadow: 2px 2px 5px 5px rgb(247, 247, 247);
+  margin: 150px 2px 2px 0;
+  outline: 5px solid transparent;
+  padding: 15px;;
+  border: 5px solid rgb(44, 89, 83);
+}
+
+.header-navigation {
+  display: flex;
+  justify-content: space-between;
 }
 
 section {
-  background-color: rgb(250, 230, 208);
   margin-top: 10px;
   padding: 10px;
 }
