@@ -19,6 +19,7 @@ h1 {
 h2 {
   font-size: 30px;
   background-color: rgb(175, 208, 199);
+  margin-bottom: 20px;
 }
 
 h1, h2 {
@@ -44,15 +45,13 @@ h1, h2 {
   flex-direction: column;
 }
 
-.block {
+.info-block {
   margin-top: 10px;
+  line-height: 1.5;
 }
 
 .avatar {
-  width: 200px;
-  height: 200px;
-  margin: 150px 2px 2px 0;
-  outline: 5px solid transparent;
+  width: 400px;
   padding: 15px;;
   border: 5px solid rgb(44, 89, 83);
 }
@@ -64,4 +63,8 @@ h1, h2 {
 .header-navigation {
   display: flex;
   justify-content: space-between;
+}
+
+.cite {
+  margin-top: 150px;
 }
