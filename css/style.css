@@ -56,7 +56,6 @@ h1, h2 {
   margin-bottom: 10px;
   line-height: 1.5;
   padding-left: 10px;
-  padding-right: 500px;
 }
 
 .avatar {
@@ -68,6 +67,10 @@ h1, h2 {
 
 .contacts {
   margin: 0;
+}
+
+.contacts__contact-list {
+  padding-left: 10px;
 }
 
 .header-navigation {
@@ -83,5 +86,13 @@ h1, h2 {
 .skills__list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  text-align: center;
+
+}
+
+.skills__list > li > .svg-inline--fa {
+  display: block;
+  font-size: 83px;
+  padding: 20px;
 }
