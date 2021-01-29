@@ -79,8 +79,12 @@ h1, h2 {
 }
 
 .cite {
-  margin-top: 150px;
+  margin-top: 120px;
   padding: 20px;
+}
+
+.cite__fav {
+  font-family: 'Shadows Into Light', cursive;
 }
 
 .skills__list {
@@ -95,4 +99,12 @@ h1, h2 {
   display: block;
   font-size: 83px;
   padding: 20px;
+}
+
+.education-list li,
+.code-list > li > a,
+.language
+ {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
