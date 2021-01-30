@@ -7,6 +7,14 @@
 }
 a {
   text-decoration: none;
+  transition-duration: .4s;
+  transition-timing-function: ease;
+}
+
+a:hover {
+  color: rgb(109, 141, 141);
+  font-weight: 700;
+  cursor: pointer;
 }
 
 li {
