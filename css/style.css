@@ -95,6 +95,10 @@ h1, h2 {
   font-family: 'Shadows Into Light', cursive;
 }
 
+summary::-webkit-details-marker {
+  color:rgb(109, 141, 141);
+}
+
 .skills__list {
   display: flex;
   flex-wrap: wrap;
