@@ -5,6 +5,11 @@
   padding: 0;
   font-size: 25px;
 }
+
+svg {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
   transition-duration: .4s;
@@ -12,8 +17,7 @@ a {
 }
 
 a:hover {
-  color: rgb(109, 141, 141);
-  font-weight: 700;
+  color: rgb(218, 0, 91);
   cursor: pointer;
 }
 
@@ -104,13 +108,14 @@ summary::-webkit-details-marker {
   flex-wrap: wrap;
   justify-content: space-evenly;
   text-align: center;
-
 }
 
 .skills__list > li > .svg-inline--fa {
   display: block;
   font-size: 83px;
-  padding: 20px;
+  padding: 15px;
+  margin: 15px auto;
+  text-align: center;
 }
 
 .education-list li,
@@ -119,4 +124,93 @@ summary::-webkit-details-marker {
  {
   text-transform: uppercase;
   letter-spacing: 1.5px;
+}
+
+@media (max-width: 1060px) {
+  .skills__list_item {
+    flex-basis: 30%;
+  }
+  .info-block {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 750px) {
+  .skills__list_item {
+    flex-basis: 50%;
+  }
+  .cite {
+    display: none;
+  }
+  .contacts__contact-list {
+    margin-bottom: 20px;
+  }
+  .content {
+    display: block;
+  }
+  .card {
+    display: flex;
+    column-gap: 3.5%;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .card__name {
+    padding: 0 10px;
+  }
+  .avatar {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: 250px;
+    max-width: 50%;
+    padding: 15px;
+    border: 5px solid rgb(44, 89, 83);
+  }
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 650px) {
+  * {
+    font-size: 20px;
+  }
+  .avatar {
+    width: 200px;
+  }
+  .card {
+    column-gap: normal;
+
+  }
+  h1 {
+    font-size: 34px;
+    padding-bottom: 0;
+  }
+  h2 {
+    font-size: 25px;
+    margin-bottom: 1px;
+  }
+  .contacts-header {
+    font-size: 20px;
+    padding: 0 10px;
+  }
+  .contacts__contact-list > li > a {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .avatar {
+    padding: 5px;
+    border: 2px solid rgb(166, 184, 182);
+    margin-left: 20px;
+    margin-bottom: 0;
+  }
+  .card {
+    flex-direction: column;
+  }
 }
