@@ -6,6 +6,11 @@
   font-size: 25px;
 }
 
+body {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
 svg {
   margin: 0;
 }
@@ -22,7 +27,7 @@ a:hover {
 }
 
 li {
-  list-style: none;
+  list-style-type: none;
 }
 
 h1 {
@@ -97,6 +102,12 @@ h1, h2 {
 
 .cite__fav {
   font-family: 'Shadows Into Light', cursive;
+}
+
+summary,
+details {
+  border: none;
+  outline: none;
 }
 
 summary::-webkit-details-marker {
