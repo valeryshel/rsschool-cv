@@ -1,9 +1,15 @@
+:root {
+  --dark-teal-color: rgb(44, 89, 83);
+  --light-teal-color: rgb(175, 208, 199);
+  --bright-pink-color: rgb(218,0,91);
+}
+
 * {
   margin: 0;
   padding: 0;
   font-size: 25px;
   font-family: 'Open Sans Condensed', sans-serif;
-  color: rgb(44, 89, 83);
+  color: var(--dark-teal-color);
 }
 
 @media (max-width: 650px) {
@@ -22,7 +28,7 @@ svg path {
   transition-timing-function: ease;
 }
 
-svg path:hover { color: rgb(218,0,91); }
+svg path:hover { color: var(--bright-pink-color); }
 
 a {
   text-decoration: none;
@@ -32,7 +38,7 @@ a {
 
 a:hover {
   cursor: pointer;
-  color: rgb(218,0,91);
+  color: var(--bright-pink-color);
 }
 
 li { list-style-type: none; }
@@ -45,7 +51,7 @@ h1 {
 h2 {
   margin-bottom: 20px;
   font-size: 30px;
-  background-color: rgb(175, 208, 199);
+  background-color: var(--light-teal-color);
 }
 
 h1,
@@ -80,7 +86,7 @@ h2 {
 
 .content-left-column {
   flex-basis: 35%;
-  background-color: rgb(175, 208, 199);
+  background-color: var(--light-teal-color);
 }
 
 .content-right-column { padding: 20px 10px; }
@@ -109,17 +115,15 @@ h2 {
   width: 250px;
   margin-top: 20px;
   padding: 15px;;
-  border: 5px solid rgb(44, 89, 83);
+  border: 5px solid var(--dark-teal-color);
 }
 
 @media (max-width: 750px) {
   .avatar {
     width: 250px;
     max-width: 50%;
-    padding: 15px;
     margin-bottom: 20px;
     margin-left: 10px;
-    border: 5px solid rgb(44, 89, 83);
   }
 
   .card {
@@ -193,7 +197,7 @@ details {
   outline: none;
 }
 
-summary::-webkit-details-marker { color:rgb(109, 141, 141); }
+summary::-webkit-details-marker { color:var(--light-teal-color); }
 
 .skills__list,
 .footer__list {
