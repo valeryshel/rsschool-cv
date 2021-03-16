@@ -242,6 +242,11 @@ summary::-webkit-details-marker { color:var(--light-teal-color); }
 .code-list > li > a,
 .language
  {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 1.5px;
+}
+
+.language {
+  text-transform: uppercase;
+  font-weight: 600;
 }
